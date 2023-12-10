@@ -69,17 +69,6 @@ export default {
     console.log('storeST', this.stacks)
   },
   methods: {
-    /* reload() {
-      const req = new GetAllRequest();
-
-      clientStack.getAll(req, {})
-        .then(response => {
-          this.stacks = response.toObject().stacksList;
-        })
-        .catch(err => {
-          console.log(`Ошибка получения стеков: ${err.message}`);
-        })
-    }, */
     showStack(stackId) {
       this.$router.push({name: 'stack-id', params:{id: stackId}});
     },

@@ -84,7 +84,7 @@
   export default {
     name: 'SandboxPage',
     head: {
-      title: 'Песочница',
+      title: 'Счета',
     },
     data: () => {
       return {

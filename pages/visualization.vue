@@ -57,7 +57,6 @@
   </template>
   
   <script>
-    import axios from 'axios';
     import Candlestick from "../components/Candlestick.vue";
 
   export default {
@@ -72,23 +71,6 @@
         stockSymbols: [],
         timeSelection: "TIME_SERIES_DAILY",
       }
-    },
-    mounted() {
-        /*axios
-            .get("https://www.alphavantage.co/query", {
-                params: {
-                    function: "TIME_SERIES_DAILY",
-                    keywords: "TSLA",
-                    apikey: "DVSM9MPECXXYFVXQ",
-                },
-            })
-            .then((response) => {
-                console.log('response', response);
-                // this.stockSymbols = response.data.bestMatches;
-            })
-            .catch((error) => {
-                console.log(error);
-            }) */
     },
     methods: {
         goSearchResultView() {
