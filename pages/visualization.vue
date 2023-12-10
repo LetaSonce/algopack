@@ -36,12 +36,11 @@
             <div class="d-flex justify-center" >
                 
 				<!-- <candlestick class="chart" /> -->
-                <v-img
-                    :width="900"
+                <img
                     aspect-ratio="16/9"
                     cover
-                    src=""
-                ></v-img>
+                    src="https://3.downloader.disk.yandex.com/preview/e0c8c54bc8f444ad192660eab998078e4d80f5c009c3e0cac645d519855c875f/inf/QKsj0UAGUwMLzJBzAlZBO6izDsHTfjsJBy1M37m7wGQBbyle3fUqJlNnaAK1q9lSbG6RMsBFlPgo_Pz2D_GSfA%3D%3D?uid=443853044&filename=image.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=443853044&tknv=v2&size=1920x959"
+                >
 			</div>
             <svg ></svg>
         </v-main>
