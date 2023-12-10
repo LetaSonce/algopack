@@ -1,6 +1,6 @@
 # algopack
 
-![Demo](https://github.com/LetaSonce/algopack/tree/dist/docs/algopack.gif)
+![Demo GIF](https://github.com/LetaSonce/algopack/blob/dist/docs/algopack.gif)
 
 ## Build Setup
 
