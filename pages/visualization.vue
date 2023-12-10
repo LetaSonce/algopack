@@ -35,7 +35,13 @@
             </v-row>
             <div class="d-flex justify-center" >
                 
-				<candlestick class="chart" />
+				<!-- <candlestick class="chart" /> -->
+                <v-img
+                    :width="900"
+                    aspect-ratio="16/9"
+                    cover
+                    src=""
+                ></v-img>
 			</div>
             <svg ></svg>
         </v-main>
